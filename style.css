@@ -1,0 +1,18 @@
+h1 {color: #25d686;
+  font-family: fantasy;
+  background-color: #50000;
+}
+
+td {background-color : #25d686;
+text-align: left;
+font-family: sans-serif;
+}
+th {background-color: #25d500;
+text-align: left;
+font-family: cursive;}
+tr {background-color: #285h64}
+
+h2 {font-size: cursive;
+background-color: #25d500}
+
+p {font-family: cursive;}
