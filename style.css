@@ -1,18 +1,53 @@
-h1 {color: #25d686;
+h1 {color: #CCCCCC;
   font-family: fantasy;
-  background-color: #50000;
+  background-color: black;
+  text-align: center;
 }
 
-td {background-color : #25d686;
-text-align: left;
+td {background-color;
+text-align: center;
+padding-left: 20px;
 font-family: sans-serif;
+color: black;
+font-weight: bolder;
 }
-th {background-color: #25d500;
+th {background-color:#CCCCCC;
+text-align: right;
+font-family: cursive;
+color :black;
+font-style: italic;
+font-weight: bolder;}
+tr {background-color:#CCCCCC ;
+}
+table{ margin: auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+     font-size: 10x;
+     margin: 50px 0;
+     width: 100%;
+     text-align: left;
+     border-collapse: collapse
+     background-color: none;
+  }
+background-color;
+text-align: center;
+color:black}
+
+p {font-family: cursive;
 text-align: left;
-font-family: cursive;}
-tr {background-color: #285h64}
+color: black;
+background-color: #CCCCCC;}
 
-h2 {font-size: cursive;
-background-color: #25d500}
+h4 {text-align: left;
+color: black;
+background-color:}
 
-p {font-family: cursive;}
+body { background: url(http://www.corsaire-editions.com/pub/fond-ecran-chaton.jpg);
+font-family: monospace;}
+
+  h2 {font-size: cursive;
+background-size: cover;
+margin: 0;
+background-color: black;
+text-align: center;
+color: #CCCCCC;
+}
