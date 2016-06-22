@@ -3,32 +3,32 @@
   <head>
     <meta charset="utf-8">
 <link rel="stylesheet" href="style.css" />
-    <title>CheatSheetGit</title>
+    <title>CheatSheetGit MIGNON</title>
   </head>
   <body>
 <h1>Bienvenue sur ce CheatSheetGit</h1>
 <h2>Introduction</h2>
-<h4>
+<h3>
   Git et son fonctionnement :
-</h4>
+</h3>
 <p>
   Git est utilisé pour versionner son code.
 </p>
 <h2>Commande de GIT via le terminal</h2>
 <table>
   <td style="text-align: left; color: #CC9900; font-weight: 800;">
-    CREATE
+    CREATE :
   </td>
 <tr>
   <th>git clone "URL"</th>
 <td>Clone an existing repository</td>
 </tr>
-<tr>
+<tr style="margin-bottom: 100px;">
 <th> git init</th>
 <td>Create a new local repository
 </tr>
 <td style="text-align: left; color: #CC9900; font-weight: 800;">
-  LOCAL CHANGES
+  LOCAL CHANGES :
 </td>
 <tr>
 <th>git status</th>
@@ -66,7 +66,7 @@
   </td>
 </tr>
 <td style="text-align: left; color: #CC9900; font-weight: 800;">
-  BRANCH
+  BRANCH :
 </td>
 <tr>
   <th>git branch -av</th>
@@ -92,9 +92,42 @@
   <th>git tag "tag name"</th>
   <td>Mark the current commit with a tag</td>
 </tr>
+<td style="text-align: left; color: #CC9900; font-weight: 800;">
+  COMMIT HISTORY :
+</td>
 <tr>
-  <th></th>
-  <td></td>
+  <th>git log</th>
+  <td>Show all commits, staring with newest</td>
+</tr>
+<tr>
+  <th>git log -p "files"</th>
+  <td>Show changes over time for a specific file</td>
+</tr>
+<tr>
+  <th>git blame "file"</th>
+  <td>Who changed what and when in "file"</td>
+</tr>
+<td style="text-align: left; color: #CC9900; font-weight: 800;">
+  MERGE & REBASE :
+</td>
+<tr>
+  <th>git merge "branch"</th>
+  <td>Merge "branch" into your current HEAD</td>
+</tr><tr>
+  <th>git rebase "files"</th>
+  <td>Rebase your current HEAD onto "branch"</td>
+</tr><tr>
+  <th>git rebase --abort</th>
+  <td>Abort a rebase</td>
+</tr><tr>
+  <th>git rebase --continue</th>
+  <td>Continue a rebase after resolving conflicts</td>
+</tr><tr>
+  <th>git mergetool</th>
+  <td>Use your configured merge tool to solve conflicts</td>
+</tr><tr>
+  <th>git add "resolved-file"</th>
+  <td>Use your editor to manually solve conflicts and mark file as resolved</td>
 </tr>
 </table>
   </body>
